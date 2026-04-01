@@ -1,0 +1,107 @@
+.instagram_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.in_lg_container{
+    width: 6.5rem;
+    height: 2rem;
+}
+
+.in_logo{
+    width: 100%;
+    height: 100%;
+}
+
+.in_searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    background-color: #fafafa;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.visual-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    color: #8e8e8e;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.placeholder_content i {
+    margin-right: 6px;
+    color: #8e8e8e;
+    font-size: 1rem;
+}
+
+.placeholder_content span {
+    font-size: 1rem;
+}
+
+.search-input:focus + .visual-placeholder,
+.search-input:not(:placeholder-shown) + .visual-placeholder {
+    left: 10px;
+    transform: translate(0, -50%);
+}
+
+.search-input:focus + .visual-placeholder span, 
+.search-input:not(:placeholder-shown) + .visual-placeholder span {
+    display: none;
+}
+
+.in_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.in_icon i{
+    font-size: 1.3rem;
+}
+
+.in_nav_circle{
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    background-color: #4094EF;
+}
+
+.in_icon i{
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.notify{
+    font-size: 0.8rem;
+    background-color: red;
+    border-radius: 50%;
+    height: 0.9rem;
+    width: 0.9rem;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+}

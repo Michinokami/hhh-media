@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    /* outline: 2px solid; */
+    background-color: #fff;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+main{
+    outline: 2px solid;
+    height: 100vh;
+    background-color: #d6d6d64b;
+}
+
+nav, section{
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+
+
+

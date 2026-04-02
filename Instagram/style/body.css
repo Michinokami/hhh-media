@@ -1,4 +1,228 @@
-.insta_profile, .insta_grid{
-    height: 40px;
-    outline: 2px solid;
+/* USER PROFILE SECTION */
+.user_profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1.5rem 0;
+    margin-left: 0.5rem;
 }
+
+.user_img_cont{
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+}
+
+.user_img{
+    width: 100%;
+    height: 100%;
+}
+
+.user_txt_cont{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 50%;
+}
+
+.user_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user_detail P{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #262626;
+}
+
+.user_detail button{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #4094EF;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.user_detail button:nth-of-type(1) {
+  padding: 0.5rem 1rem;
+}
+
+.ud_circle_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.ud_circle_cont div{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.user_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user_info p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #262626;
+}
+
+.user_info p span{
+    font-weight: bold;
+}
+
+.ut1{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #262626;
+}
+
+.ut2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #262626;
+    line-height: 123%;
+}
+
+.user_txt a{
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 100%;
+text-decoration: none;
+}
+
+.sub_profile{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.sp_sub{
+    width: fit-content;
+    height: fit-content;
+}
+
+.sp_sub div{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.sub_circle{
+    width: 100%;
+    height: 100%;
+}
+
+.sp_sub p{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #262626;
+    text-transform: capitalize;
+}
+
+/* IMAGE GRID SECTION */
+.insta_grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ig_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.igtxt{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.igtxt i{
+    width: 0.7rem;
+    height: 0.7rem;
+    color: #262626;
+}
+
+.igtxt p{
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.sub_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 11.6rem 11.6rem 11.6rem; */
+    gap: 2rem;
+}
+
+.ig_grid_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

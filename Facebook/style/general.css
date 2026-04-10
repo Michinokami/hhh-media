@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: "roboto" sans-serif;
+}
+
+#facebook{
+    outline: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    outline: 2px solid;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    outline: 2px solid;
+}
+
+footer{
+    outline: 2px solid;
+    height: 10rem;
+}

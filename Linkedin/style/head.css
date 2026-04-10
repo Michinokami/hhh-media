@@ -1,0 +1,144 @@
+.head_sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding: 0 1rem;
+    border-right: 2px solid #606F7B;
+}
+
+.HS_brand_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.HS_brand{
+    height: 3rem;
+    width: 3rem;
+}
+
+.HS_brand img{
+    height: 100%;
+    width: 100%;
+}
+
+.HS_search{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #E1E5E8;
+    padding: 0.5rem 0.7rem;
+    border-radius: 3pxq;
+}
+
+.HS_search i, .HS_search input{
+    font-size: 1rem;
+    color: #2D3E49;
+    background-color: transparent;
+    border: none;
+}
+
+.HS_search input::placeholder{
+    font-size: 1rem;
+    color: #2D3E49;
+}
+
+.HS_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.HS_nav_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.rd_crc{
+    position: relative;
+    top: 6px;
+    right: -4px;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    background-color: #C12D2E;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.HS_nav_span p{
+    font-size: 1.1rem;
+    color: #C9D1D7;
+    font-weight: normal;
+}
+
+.HS_nav_span i{
+    font-size: 1.1rem;
+    color: #C9D1D7;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.bl_crc{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: #3072AC;
+}
+
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    color: #C9D1D7;;
+}
+
+.head_sub2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.HS_sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: #C9D1D7;
+}
+
+.HSS_sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HS_sub2 p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D8CDA8;
+    text-align: center;
+}
+
+

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto" sans-serif;
+    background-color: rgb(245, 245, 245);
+}   
+
+header{
+    /* outline: 2px solid; */
+    margin-left: 10rem;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+main{
+    outline: 2px solid;
+}
+
+section{
+    outline: 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

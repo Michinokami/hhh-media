@@ -1,0 +1,139 @@
+.logo_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.logo_contain{
+    width: 2rem;
+    height: 2rem;
+}
+
+.fb_logo{
+    width: 100%;
+    height: 100%;
+}
+
+.searchbar{
+    width: 17.6rem;
+    height: fit-content;
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ebebeb;
+}
+
+.searchbar i{
+    font-size: 1rem;
+    color: #C4C4C4;
+}
+
+.search{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #66676B;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navbar span i{
+    font-size: 1.5rem;
+    color: #66676B;
+    position: relative;
+}
+
+.nav_circle{
+    font-weight: 400;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.head_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.admin_circle{
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: #0572EF;
+    border-radius: 50%;
+}
+
+.admin_txt{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #080808;
+    text-transform: capitalize;
+}
+
+.head_icon button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto" sans-serif;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #66676B;
+    border-radius: 50%;
+    border: none;
+}
+
+.head_icon button i{
+    position: relative;
+}
+
+.notify{
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    font-size: 0.5rem;
+}
+
+
+
+
+
+
+
+
+

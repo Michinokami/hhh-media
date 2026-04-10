@@ -178,7 +178,6 @@ text-decoration: none;
 .sub_grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-columns: 11.6rem 11.6rem 11.6rem; */
     gap: 2rem;
 }
 

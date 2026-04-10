@@ -10,7 +10,7 @@ body{
 }   
 
 header{
-    /* outline: 2px solid; */
+    outline: 2px solid;
     margin-left: 10rem;
     padding: 1rem 0.5rem;
     display: flex;

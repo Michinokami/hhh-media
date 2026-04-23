@@ -1,8 +1,12 @@
 .instagram_navbar{
+    background: var(--ig-white);
+    border-bottom: 1px solid var(--ig-light);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: fit-content;
+    max-width: 100%;
 }
 
 .in_lg_container{
@@ -29,14 +33,16 @@
 }
 
 .search-input {
-    width: 100%;
-    padding: 10px 10px 10px 35px;
-    border: 1px solid #dbdbdb;
+    width: 15rem;
+    background: var(--ig-bg);
+    border: 1px solid var(--ig-light);
     border-radius: 8px;
-    background-color: #fafafa;
-    font-size: 14px;
+    padding: 7px 14px;
+    font-size: 13px;
+    color: var(--ig-dark);
     outline: none;
-    box-sizing: border-box;
+    text-align: center;
+    transition: border-color 0.2s;
 }
 
 .visual-placeholder {
@@ -79,15 +85,30 @@
     gap: 1rem;
 }
 
+.nav-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ig-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+  transition: opacity 0.15s;
+}
+
 .in_icon i{
     font-size: 1.3rem;
 }
 
 .in_nav_circle{
-    height: 1.3rem;
-    width: 1.3rem;
+    height: 1.6rem;
+    width: 1.6rem;
     border-radius: 50%;
-    background-color: #4094EF;
+    background: var(--ig-blue);
+    cursor: pointer;
+    border: 2px solid var(--ig-light);
 }
 
 .in_icon i{

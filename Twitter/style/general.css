@@ -2,5 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
 }
+
+body{
+    position: relative;
+    padding: 0 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #17202A;
+    gap: 2rem;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+footer{
+    /* outline: 2px solid; */
+    position: absolute;
+    bottom: 1rem;
+    left: 6rem;
+    width: 18rem;
+}
+
+header{
+    width: 15rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 2.2rem;
+    position: fixed;
+    top: 0.7rem;
+    left: 8rem;
+}
+
+main{
+    width: 40rem;
+    margin: 0 35px;
+    margin-left: 17rem;
+    border-right: 1px solid #3A444C;
+    border-left: 1px solid #3A444C;
+}
+
+aside{
+    width: 25rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #3A444C; 
+    height: 0;
+    width: 100%;
+}
+

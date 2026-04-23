@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test drive</title>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-content">
+                <div class="logo">in</div>
+                <input type="text" class="search-bar" placeholder="Search">
+            </div>
+        </nav>
+
+        <div class="container">
+            <section class="hero">
+                <div class="banner"></div>
+                <div class="profile-header">
+                    <div class="profile-pic"></div>
+                    <div class="company-info">
+                        <h1 id="companyName">Name</h1>
+                        <p>Industry • City, State • <span id="followerCount">623</span> followers</p>
+                        <button class="btn-visit">Visit website</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="content-grid">
+                
+                <aside class="side-nav card">
+                    <ul>
+                        <li class="active">Home</li>
+                        <li>About</li>
+                        <li>Jobs</li>
+                        <li>People</li>
+                        <li>Ads</li>
+                    </ul>
+                </aside>
+
+                <main class="feed">
+                    <div class="card">
+                        <div class="post-header">
+                            <div class="post-avatar"></div>
+                            <div>
+                                <strong>Name</strong><br>
+                                <small>623 followers • 1w</small>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="post-img"></div>
+                        <hr style="opacity: 0.2; margin: 10px 0;">
+                        <div style="display: flex; justify-content: space-around; color: var(--text-sub); font-size: 14px;">
+                            <span>Like</span> <span>Comment</span> <span>Share</span>
+                        </div>
+                    </div>
+                </main>
+
+                <aside class="sidebar-right">
+                    <div class="card">
+                        <h4 style="margin-bottom: 12px;">Similar pages</h4>
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                            <div style="width: 40px; height: 40px; background: #ddd;"></div>
+                            <div><strong>Tech Corp</strong><br><small>IT Services</small></div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div style="width: 40px; height: 40px; background: #ddd;"></div>
+                            <div><strong>Design Pro</strong><br><small>Design</small></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <script src="test.js"></script>
+    </body>
+</html>
+
+

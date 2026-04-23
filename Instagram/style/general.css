@@ -4,7 +4,21 @@
     box-sizing: border-box;
 }
 
+:root {
+  --ig-blue: #0095f6;
+  --ig-dark: #262626;
+  --ig-gray: #8e8e8e;
+  --ig-light: #dbdbdb;
+  --ig-bg: #fafafa;
+  --ig-white: #ffffff;
+  --ig-link: #00376b;
+}
+
 body{
+    font-family: Helvetica, Arial, sans-serif;
+    background: var(--ig-bg);
+    color: var(--ig-dark);
+    font-size: 14px;
     display: flex;
     flex-direction: column;
 }
@@ -12,10 +26,15 @@ body{
 header{
     background-color: #fff;
     border-bottom: 1px solid #d6d6d6;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 main{
-    background-color: #d6d6d64b;
+    max-width: 59rem;
+    margin: 0 auto;
+    padding: 30px 20px 0;
 }
 
 nav, section{

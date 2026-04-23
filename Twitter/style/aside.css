@@ -1,0 +1,304 @@
+#searchbar{
+    width: 21.6rem;
+    height: 2rem;
+    background-color: #283340;
+    border-radius: 6.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: fixed;
+    top: 1rem;
+}
+
+#searchbar i{
+    font-size: 1rem;
+    color: #8A98A4;
+}
+
+.search{
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8A98A4;
+    background-color: transparent;
+    border: none;
+}
+
+.search::placeholder{
+    font-size: 1rem;
+    color: #8A98A4;
+}
+
+.search:focus{
+    outline: none;
+}
+
+#photo_grid{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 7rem 7rem 7rem;
+    grid-template-rows: 6rem 6rem;
+    gap: 3px;
+}
+
+.photo_grid_img{
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+
+#friends{
+    width: 21.6rem;
+    background-color: #1C2733;
+    border-radius: 1rem;
+}
+
+.f_top, .f_bottom{
+    padding: 1rem;
+}
+
+.f_top h3{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+
+.f_mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.f_mid_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.fmid_imgcont{
+    width: 3rem;
+    height: 3rem;
+}
+
+.fmid_imgcont img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.fmid_txtcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.fmid_txtcont h3{
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.fmid_txtcont p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8A98A4;
+}
+
+.f_mid_2 button{
+    padding: 6px 1rem;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #4BA0EC;
+    background-color: transparent;
+    border: 1px solid #4BA0EC;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.f_mid_2 button:hover{
+    background-color: #4BA0EC;
+    color: #17202a;
+}
+
+.f_bottom a{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4BA0EC;
+    text-decoration: none;
+}
+
+.f_mid_pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.f_mid_1pro{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+.fmid_txtsub{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fmid_txtsubcont{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.fmid_txtsubcont h3{
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.fmid_txtsubcont p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8A98A4;
+}
+
+.fmid_txtpro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fmid_txtpro p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #8A98A4;
+}
+
+.fmid_txtpro i{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #8A98A4;
+}
+
+#trends{
+    width: 21.6rem;
+    background-color: #1C2733;
+    border-radius: 1rem;
+}
+
+.t_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+ .t_top p{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+ }
+
+.t_top i{
+    color: #4BA0EC;
+    font-size: 1.3rem;
+}
+
+.f_mid_sup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 10px 14px;
+}
+
+.f_mid_supt h3{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+.f_mid_supm p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8A98A4;
+}
+
+.f_mid_supb{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.f_mid_supb i{
+    font-size: 14px;
+    color: #8A98A4;
+}
+
+.f_mid_supb p{
+    font-size: 14px;
+    color: #8A98A4;
+}
+
+.f_mid_sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 14px; 
+}
+
+.f_mid_sub_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.f_mid_sub_txt p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #8A98A4;
+}
+
+.f_mid_sub_icn i{
+    font-size: 1rem;
+    color: #8A98A4;
+}
+
+.f_mid_sub_txt span{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #8A98A4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,26 +8,681 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <title>Tweeter</title>
 
     <link rel="shortcut icon" href="image/tweeter logo icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/body.css">
+    <link rel="stylesheet" href="style/head.css">
+    <link rel="stylesheet" href="style/side.css">
+    <link rel="stylesheet" href="style/aside.css">
 
 </head>
 
 <body>
-    <main id="tweeter">
-        <section class="tweeter_links">
-            <div class="tlk_sub"></div>
-            <div class="tlk_sub"></div>
+    <header>
+        <section id="head_sub1">
+            <span class="HS1_span">
+                <i class="fa-brands fa-twitter"></i>
+            </span>
         </section>
 
-        <section class="tweeter_videos"></section>
+        <section id="head_sub2">
+            <span class="HS2_span">
+                <i class="fa-regular fa-house"></i>
+                <p>home</p>
+            </span>
 
-        <section class="tweeter_trends"></section>
+            <span class="HS2_span">
+                <i class="fa-solid fa-hashtag"></i>
+                <p>explore</p>
+            </span>
+
+            <span class="HS2_span">
+                <i class="fa-regular fa-bell"></i>
+                <p>notifications</p>
+                <div class="notify">1</div>
+            </span>
+
+            <span class="HS2_span">
+                <i class="fa-regular fa-envelope"></i>
+                <p>messages</p>
+            </span>
+
+            <span class="HS2_span">
+                <i class="fa-regular fa-bookmark"></i>
+                <p>bookmarks</p>
+            </span>
+
+            <span class="HS2_span">
+                <i class="fa-solid fa-bars"></i>
+                <p>list</p>
+            </span>
+
+            <span class="HS2_span">
+                <i class="fa-regular fa-user"></i>
+                <p>profile</p>
+            </span>
+
+            <span class="HS2_span">
+                <span><i class="fa-solid fa-ellipsis"></i></span>
+                <p>more</p>
+            </span>
+        </section>
+
+        <section id="head_sub3">
+            <button class="HS3_btn">tweet</button>
+        </section>
+    </header>
+
+    <main>
+        <section id="body_top">
+            <div class="BT_sub1">
+                <div class="BTS1_sub1">
+                    <span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </span>
+
+                    <div>
+                        <p>Name</p>
+                        <span>2,006 Tweets </span>
+                    </div>
+                </div>
+
+                <div class="BTS1_sub2">
+                    <div class="BTS1_sub2_img1_cont">
+                        <img src="../Original Sin/Azkalor.png" class="BTS1_sub2_img1">
+                    </div>
+                    
+                    <div class="BTS1_sub2_img2_cont">
+                        <img src="../Original Sin/Azkalor.png" class="BTS1_sub2_img2">
+                    </div>
+                </div>
+
+                <div class="BTS1_sub3">
+                    <div class="BTS1S3_sub1">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </span>
+                    </div>
+
+                    <div class="BTS1S3_sub2">
+                        <span>
+                            <i class="fa-regular fa-bell"></i>
+
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </span>
+                    </div>
+
+                    <div class="BTS1S3_sub3">
+                        <button>Following</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="BT_sub2">
+                <div class="BT_S2_sub1">
+                    <div class="BT_S2_S1_sub1">
+                        <h1>Name</h1>
+                        <p>&#64;Name</p>
+                    </div>
+
+                    <div class="BT_S2_S1_sub2">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <p>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="BT_S2_sub2">
+                    <div class="BT_S2_S2_sub1">
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>City, Country</p>
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-link"></i>
+                            <a href="#">website.com</a>
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <p>Joined October 2015</p>
+                        </span>
+                    </div>
+
+                    <div class="BT_S2_S2_sub2">
+                        <p><span>398</span>Following</p>
+
+                        <p><span>556</span>Followers</p>
+                    </div>
+
+                    <div class="BT_S2_S2_sub3">
+                        <div class="BT_S2_S2_S3_sub1">
+                            <div style="z-index: 10;"></div>
+                            <div style="margin-left: -0.7rem; z-index: 1;"></div>
+                            <div style="margin-left: -0.7rem;"></div>
+                        </div>
+
+                        <div class="BT_S2_S2_S3_sub2">
+                            <p>
+                                Followed by Joe, Soap, and 9 others you follow
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="body_link">
+            <div>
+                <a href="#">Tweets</a>
+            </div>
+
+            <div>
+                <a href="#">Tweets & replies</a>
+            </div>
+
+            <div>
+                <a href="#">Media</a>
+            </div>
+
+            <div>
+                <a href="#">Likes</a>
+            </div>
+        </section>
+
+        <section id="body_bottom">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Aethelon.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Aethelon The Deed.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="body_bottom">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Gormos.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Gormos Authority.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="body_bottom">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Lythos.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Lythos Deed.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="body_bottom">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Nylos Deed.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Nylos Authority.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="body_bottom">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Phanes.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Phanes Deed.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="body_bottom">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Vorgath.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Vorgath Authority.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="body_bottom" style="margin-bottom: 6rem;">
+            <div class="BB_sub1">
+                <img src="../Original Sin/Xeraxis.png">
+            </div>
+
+            <div class="BB_sub2" style="width: 30vw;">
+                <div class="BB_S2_sub1">
+                    <p><span>Name</span>&#64;name &#183; 18h</p>
+                    <i class="fa-solid fa-angle-down"></i>  
+                </div>
+
+                <div class="BB_S2_sub2">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's: <a href="#">bit.ly/2kvf6yj</a>
+                    </p>
+                </div>
+
+                <div class="BB_S2_sub3">
+                    <img src="../Original Sin/Xeraxis Authority.png">
+                </div>
+
+                <div class="BB_S2_sub4">
+                    <span>
+                        <i class="fa-regular fa-message"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+
+                    <span class="BB_S2_sub4_span">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>2</p>
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <aside>
+        <div id="searchbar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="search" placeholder="Search" class="search">
+        </div>
+
+        <div id="photo_grid">
+            <div style="border-top-left-radius: 1rem;">
+                <img src="../Original Sin/THE PALE WATCHER Deed.png" class="photo_grid_img">
+            </div>
+
+            <div>
+                <img src="../Original Sin/Azkalor The Solitary Reign.png" class="photo_grid_img">
+            </div>
+
+            <div style="border-top-right-radius: 1rem;">
+                <img src="../Original Sin/Azkalor The Great Schism.png" class="photo_grid_img">
+            </div>
+
+            <div style="border-bottom-left-radius: 1rem;">
+                <img src="../Original Sin/Aethelon Genesis.png" class="photo_grid_img">
+            </div>
+
+            <div>
+                <img src="../Original Sin/THE PALE WATCHER Authority.png" class="photo_grid_img">
+            </div>
+
+            <div style="border-bottom-right-radius: 1rem;">
+                <img src="../Original Sin/THE PALE WATCHER Genesis.png" class="photo_grid_img">
+            </div>
+        </div>
+
+        <div id="friends">
+            <div class="f_top">
+                <h3>You might like</h3>
+            </div>
+
+            <hr>
+            <div class="f_mid_pro">
+                <div class="f_mid_1pro">
+                    <div class="fmid_imgcont">
+                        <img src="image\92859532.png" alt="">
+                    </div>
+                    <div class="fmid_txtsub">
+                        <div class="fmid_txtsubcont">
+                            <h3>Name</h3>
+                            <p>&#64;name</p>
+                        </div>
+
+                        <div class="fmid_txtpro">
+                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                            <p>Promoted</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="f_mid_2">
+                    <button>follow</button>
+                </div>
+            </div>
+            <hr>
+
+            <div class="f_mid">
+                <div class="f_mid_1">
+                    <div class="fmid_imgcont">
+                        <img src="image\77908128.png" alt="">
+                    </div>
+                    <span class="fmid_txtcont">
+                        <h3>name</h3>
+                        <p>&#64;name</p>
+                    </span>
+                </div>
+
+                <div class="f_mid_2">
+                    <button>follow</button>
+                </div>
+            </div>
+
+            <hr>
+            <div class="f_mid">
+                <div class="f_mid_1">
+                    <div class="fmid_imgcont">
+                        <img src="image\10851317.png" alt="">
+                    </div>
+                    <span class="fmid_txtcont">
+                        <h3>name</h3>
+                        <p>&#64;name</p>
+                    </span>
+                </div>
+
+                <div class="f_mid_2">
+                    <button>follow</button>
+                </div>
+            </div>
+
+            <hr>
+            <div class="f_bottom">
+                <a href="http://">Show more</a>
+            </div>
+        </div>
+
+        <div id="trends">
+            <div class="t_top">
+                <p>Trends for you</p>
+
+                <i class="fa-solid fa-gear"></i>
+            </div>
+
+            <hr>
+            <div class="f_mid_sub">
+                <div class="f_mid_sub_txt">
+                    <p>Trendig in Country</p>
+                    <h3>&#35;Hashtag</h3>   
+                    <span>1,222 Tweets</span>
+                </div>
+
+                <span class="f_mid_sub_icn">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+            <hr>
+
+            <div class="f_mid_sup">
+                <span class="f_mid_supt">
+                    <h3>&#35;Hashtag</h3>
+                </span>
+
+                <span class="f_mid_supm">
+                    <p>
+                        Lorem ipsum is simply dummy text of the prnting
+                        <br>and typesetting industry. 
+                    </p>
+                </span>
+
+                <span class="f_mid_supb">
+                    <i class="fa-solid fa-square-up-right"></i>
+
+                    <p>Promoted by Name</p>
+                </span>
+            </div>
+
+            <hr>
+            <div class="f_mid_sub">
+                <div class="f_mid_sub_txt">
+                    <p>Category</p>
+                    <h3>&#35;Hashtag</h3>   
+                    <span>13.3K Tweets</span>
+                </div>
+
+                <span class="f_mid_sub_icn">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+
+            <hr>
+            <div class="f_mid_sub">
+                <div class="f_mid_sub_txt">
+                    <p>Category</p>
+                    <h3>&#35;Hashtag</h3>   
+                    <span>13.3K Tweets</span>
+                </div>
+
+                <span class="f_mid_sub_icn">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+
+            <hr>
+            <div class="f_bottom">
+                <a href="http://">Show more</a>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="f_mid">
+            <div class="f_mid_1">
+                <div class="fmid_imgcont"><div></div></div>
+                <span class="fmid_txtcont">
+                    <h3>name</h3>
+                    <p>&#64;name</p>
+                </span>
+            </div>
+
+            <span class="f_mid_sub_icn">
+                <i class="fa-solid fa-angle-down"></i>
+            </span>
+        </div>
+    </footer>
 </body>
 </html>

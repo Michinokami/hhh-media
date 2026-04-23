@@ -1,32 +1,29 @@
 /* USER PROFILE SECTION */
 .user_profile{
     display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding: 1.5rem 0;
-    margin-left: 0.5rem;
+    align-items: flex-start;
+    gap: 3.8rem;
+    margin-bottom: 1.8rem;
 }
 
 .user_img_cont{
-    width: 9.5rem;
-    height: 9.5rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
+    border: 3px solid var(--ig-white);
+    box-shadow: 0 0 0 2px var(--ig-light);
 }
 
 .user_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: inherit;
+    border-radius: 50%;
 }
 
 .user_txt_cont{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 0.7rem;
-    width: 50%;
+    flex: 1;
+    padding-top: 0.5rem;
 }
 
 .user_detail{
@@ -34,44 +31,101 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 18px;
+    /* flex-wrap: wrap; */
 }
 
-.user_detail P{
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
-    text-transform: capitalize;
-    color: #262626;
+.username {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ig-dark);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.user_detail button{
-    font-weight: 700;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    background-color: #4094EF;
-    border-radius: 0.25rem;
-    padding: 0.5rem;
-    border: none;
+.btn-follow {
+  background: var(--ig-blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
 }
 
-.user_detail button:nth-of-type(1) {
-  padding: 0.5rem 1rem;
+.btn-follow:hover {
+  background: #1aa1f7;
 }
 
-.ud_circle_cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
+.btn-icon-sm {
+  background: var(--ig-light);
+  border: none;
+  border-radius: 8px;
+  padding: 7px 10px;
+  cursor: pointer;
+  color: var(--ig-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
 }
 
-.ud_circle_cont div{
-    height: 0.5rem;
-    width: 0.5rem;
-    border-radius: 50%;
-    background-color: black;
+.btn-icon-sm:hover {
+  background: #c7c7c7;
 }
+
+.btn-more {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--ig-dark);
+  letter-spacing: 1px;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 14px;
+}
+
+.stat {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.stat-num {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ig-dark);
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--ig-dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .user_info{
     display: flex;

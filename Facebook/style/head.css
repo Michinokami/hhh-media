@@ -1,139 +1,149 @@
-.logo_search{
+/* PROFILE */
+.profile_section{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.ps_top{
+    width: 59rem;
+    height: 22rem;
+    margin: 0 auto;
+}
+
+.pst_img{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.ps_mid{
+    margin: 0 auto;
+    width: 56rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1rem;
+    border-bottom: 2px solid #CFD0D4;
+    padding-bottom: 1rem;
+}
+
+.psm_left{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.7rem;
+    gap: 2rem;
 }
 
-.logo_contain{
-    width: 2rem;
-    height: 2rem;
+.psml_proimg{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
 }
 
-.fb_logo{
+.psm_img{
     width: 100%;
     height: 100%;
+    border-radius: inherit;
 }
 
-.searchbar{
-    width: 17.6rem;
-    height: fit-content;
-    border-radius: 1.5rem;
-    padding: 0.3rem 0.8rem;
+.psml_protxt h1{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #080808;
+}
+
+.psml_protxt p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #66676B;
+    text-transform: capitalize;
+}
+
+.psm_right button{
+    width: 18rem;
+    border-radius: 0.5rem;
+    font-family: "roboto" sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: #0572EF;
+    border-radius: 1rem;
+    text-transform: capitalize;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    background-color: #ebebeb;
-}
-
-.searchbar i{
-    font-size: 1rem;
-    color: #C4C4C4;
-}
-
-.search{
-    font-weight: 400;
-    font-size: 1rem;
-    color: #66676B;
-    width: 100%;
+    padding: 0.7rem 0;
     border: none;
-    background-color: transparent;
 }
 
-.navbar{
+.ps_down{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 6rem;
 }
 
-.navbar span i{
-    font-size: 1.5rem;
-    color: #66676B;
-    position: relative;
-}
-
-.nav_circle{
-    font-weight: 400;
-    font-size: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    color: #fff;
-    position: absolute;
-    top: -5px;
-    right: -5px;
-}
-
-.head_icon{
+.psd_link{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.admin{
+.psd_link p{
+    font-size: 1.3rem;
+    color: #66676B;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.psdl_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.psdl_txt span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psd_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.psd_btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: capitalize;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-}
-
-.admin_circle{
-    width: 1.8rem;
-    height: 1.8rem;
-    background-color: #0572EF;
-    border-radius: 50%;
-}
-
-.admin_txt{
-    font-weight: 500;
-    font-size: 1rem;
-    color: #080808;
-    text-transform: capitalize;
-}
-
-.head_icon button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "roboto" sans-serif;
-    padding: 0.5rem;
-    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
     color: #66676B;
-    border-radius: 50%;
     border: none;
+    background-color: rgb(231, 231, 231);
 }
 
-.head_icon button i{
-    position: relative;
+.psd_btn button:hover{
+    padding: 0.5rem;
+    background-color: #0572EF;
+    color: white;
 }
-
-.notify{
-    position: absolute;
-    top: -3px;
-    right: -3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    color: #fff;
-    height: 0.8rem;
-    width: 0.8rem;
-    border-radius: 50%;
-    font-size: 0.5rem;
-}
-
-
-
-
-
-
-
-
-

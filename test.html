@@ -1,80 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Test drive</title>
-        <link rel="stylesheet" href="test.css">
-    </head>
-    <body>
-        <nav>
-            <div class="nav-content">
-                <div class="logo">in</div>
-                <input type="text" class="search-bar" placeholder="Search">
-            </div>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
 
-        <div class="container">
-            <section class="hero">
-                <div class="banner"></div>
-                <div class="profile-header">
-                    <div class="profile-pic"></div>
-                    <div class="company-info">
-                        <h1 id="companyName">Name</h1>
-                        <p>Industry • City, State • <span id="followerCount">623</span> followers</p>
-                        <button class="btn-visit">Visit website</button>
-                    </div>
-                </div>
-            </section>
+    <input type="checkbox" id="chat-toggle" hidden>
 
-            <div class="content-grid">
-                
-                <aside class="side-nav card">
-                    <ul>
-                        <li class="active">Home</li>
-                        <li>About</li>
-                        <li>Jobs</li>
-                        <li>People</li>
-                        <li>Ads</li>
-                    </ul>
-                </aside>
+    <!-- Chat Window -->
+    <div class="chat-window">
 
-                <main class="feed">
-                    <div class="card">
-                        <div class="post-header">
-                            <div class="post-avatar"></div>
-                            <div>
-                                <strong>Name</strong><br>
-                                <small>623 followers • 1w</small>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div class="post-img"></div>
-                        <hr style="opacity: 0.2; margin: 10px 0;">
-                        <div style="display: flex; justify-content: space-around; color: var(--text-sub); font-size: 14px;">
-                            <span>Like</span> <span>Comment</span> <span>Share</span>
-                        </div>
-                    </div>
-                </main>
-
-                <aside class="sidebar-right">
-                    <div class="card">
-                        <h4 style="margin-bottom: 12px;">Similar pages</h4>
-                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
-                            <div style="width: 40px; height: 40px; background: #ddd;"></div>
-                            <div><strong>Tech Corp</strong><br><small>IT Services</small></div>
-                        </div>
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <div style="width: 40px; height: 40px; background: #ddd;"></div>
-                            <div><strong>Design Pro</strong><br><small>Design</small></div>
-                        </div>
-                    </div>
-                </aside>
+        <div class="chat-header">
+            <div class="profile-pic"></div>
+            <span class="header-name">Name <span class="chevron">&#8964;</span></span>
+            <div class="header-controls">
+                <span class="minimize-btn">&#8212;</span>
+                <label for="chat-toggle" class="close-btn">&#10005;</label>
             </div>
         </div>
 
-        <script src="test.js"></script>
-    </body>
+        <div class="message-content">
+            <p class="status-text">Typically replies within an hour</p>
+            <p class="industry-label">Industry</p>
+            <p class="welcome-msg">Hi Sally! Welcome to Name. Thanks for getting in touch with us on Messenger. Can we assist with lorem ipsum?</p>
+            <p class="public-info">When you reply, Name will see your public info.</p>
+            <button class="question-btn">Question A goes here</button>
+            <button class="question-btn">Question B goes here</button>
+            <button class="question-btn">Question C goes here</button>
+        </div>
+
+        <div class="input-bar">
+            <!-- Plus -->
+            <span class="bar-icon">
+                <i class="fa-solid fa-circle-plus"></i>
+            </span>
+            <!-- Image -->
+            <span class="bar-icon">
+                <i class="fa-regular fa-image"></i>
+            </span>
+            <!-- Sticker -->
+            <span class="bar-icon">
+                <i class="fa-regular fa-note-sticky"></i>
+            </span>
+            <!-- GIF -->
+            <span class="bar-icon gif-icon">GIF</span>
+            <!-- Input -->
+            <div class="input-field">Aa</div>
+            <!-- Emoji -->
+            <span class="bar-icon">
+                <i class="fa-regular fa-face-smile"></i>
+            </span>
+            <!-- Menu -->
+            <span class="bar-icon menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+
+    </div>
+
+    <!-- Trigger button -->
+    <label for="chat-toggle" class="chat-trigger">
+        <span class="chat_box">
+            <!-- Circular message icon (Facebook Messenger style) -->
+        <i class="fa-solid fa-comment" id="bubble-icon">
+            <!-- Plus sign -->
+            <i class="fa-solid fa-plus"></i>
+        </i>
+        </span>
+    </label>
+
+</body>
 </html>
-
-

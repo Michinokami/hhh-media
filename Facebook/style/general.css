@@ -9,24 +9,28 @@ body{
 }
 
 #facebook{
-    outline: 2px solid;
     display: flex;
     flex-direction: column;
 }
 
+
 header{
-    outline: 2px solid;
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+    background: white; 
     padding: 0.6rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-main{
-    outline: 2px solid;
-}
-
 footer{
-    outline: 2px solid;
-    height: 10rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1000;
+    gap: 3rem;
+    padding: 20px;
 }
